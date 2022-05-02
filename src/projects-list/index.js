@@ -1,3 +1,3 @@
-import ProjectsList from "./news-list";
+import ProjectsList from "./projects-list";
 
 export default ProjectsList;

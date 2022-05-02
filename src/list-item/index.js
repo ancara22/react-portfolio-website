@@ -1,3 +1,3 @@
-import NewsListItem from "./news-list-item";
+import ProjectListItem from "./project-list-item";
 
-export default NewsListItem;
+export default ProjectListItem;
