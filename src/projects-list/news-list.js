@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import NewsListItem from "../news-list-item"
+import NewsListItem from "../list-item"
 
 
-export default class NewsList extends Component {
+export default class ProjectsList extends Component {
 
     render() {
         const listItems = this.props.todo.map((item)=> {

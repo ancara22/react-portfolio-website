@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import Header from "../header";
-import NewsList from "../news-list"
+import ProjectsList from "../projects-list"
 import SearchPanel from "../search-panel";
-import NewEvent from "../new-event";
+import NewProject from "../new-project";
 
 
 
@@ -38,9 +38,9 @@ export default class App extends Component {
         return (
             <div>
                 <Header/>
-                <NewEvent/>
+                <NewProject/>
                 <ul>
-                    <NewsList todo={ this.state.todoData }/>
+                    <ProjectsList todo={ this.state.todoData }/>
                 </ul>
                 
                 <SearchPanel/>          

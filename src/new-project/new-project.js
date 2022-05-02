@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 
 
-export default class NewEvent extends Component {
+export default class NewProject extends Component {
 
     render() {
         return (
