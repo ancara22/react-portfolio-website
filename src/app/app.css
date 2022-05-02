@@ -4,11 +4,10 @@ body {
     margin: 0 auto;
     display: flex;
     justify-content: center;
-    background: url("../../img/background.jpg");
     background-size: cover;
-    backdrop-filter: blur(4px);
-    
-  
+   
+    background-color: rgb(255, 255, 255);
+ 
 
 }
 
@@ -23,13 +22,46 @@ body {
     color: white;
     font-size: 40px;
     text-align: center;
-    background-color: rgb(22, 22, 22);
+    background-image: url("../../img/power.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
     z-index: -1 ;
     
 
+}
+.intro::before {
+        content: ' ';
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -2;
+        background: linear-gradient(149deg, rgba(0,0,0,0.9) 0%, rgba(19,15,64,0.7) 53%, rgba(63,14,39,0.5) 95%);
+        animation: gradient 30s ease infinite;
+        background-size: 400%;
+    
+    
 }
 
 .intro span {
     position: relative;
     top: 80px
+}
+
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 20%;
+    }
+
+
+
 }

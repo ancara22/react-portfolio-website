@@ -1,7 +1,19 @@
 
 .filter-bar {
    position: fixed;
+
    top: 110px;
    left: 20px;
+   background-color: rgba(38, 38, 39, 0.579);
+   border-radius: 70px;
+}
+
+
+.menuIcon {
+   background: url("../../img/menu.png") ;
+   background-size: cover;
+   width: 20px;
+   height: 20px;
+   margin: 10px;
 
 }
