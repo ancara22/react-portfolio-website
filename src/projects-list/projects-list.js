@@ -1,19 +1,22 @@
 import React, { Component } from "react";
-import ProjectsListItem from "../list-item"
+import ProjectsListItem from "../list-item";
+import "./projects-list.css"
+
 
 
 export default class ProjectsList extends Component {
 
     render() {
-        const listItems = this.props.projectsData.map((item)=> {
-            const {id} = item;
+        const {projectsData} = this.props;
+
+        const listItems = projectsData.map((item)=> {
             return (
-                <li key={id.toString()}><ProjectsListItem {...item} /></li>
+                <li key={item.id.toString()}><ProjectsListItem {...item} /></li>
             )
         });
 
         return (
-           <ul>
+           <ul className="projects_list">
                { listItems }
            </ul>
         )

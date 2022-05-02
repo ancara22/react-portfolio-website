@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./project-list-item.css"
 
 
 export default class ProjectListItem extends Component {
@@ -9,8 +10,8 @@ export default class ProjectListItem extends Component {
                 img, languages} = this.props;
 
         return (
-            <div>
-                <h3>{title}</h3>
+            <div className="list_item">
+                <h2>{title}</h2>
                 <img src={img} alt=""></img>
                 <p>{description}</p>
                 <span>{languages}</span>

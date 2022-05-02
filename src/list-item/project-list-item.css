@@ -1,0 +1,15 @@
+
+.list_item {
+    padding: 5vw;
+    padding-top: 2vw;
+    margin-bottom: 3vh ;
+   /* box-shadow: 3px 3px 20px  rgba(195, 208, 225, 0.6); */ 
+    background-color: white;
+
+    
+
+}
+
+.list_item p {
+    text-align: justify;
+}

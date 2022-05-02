@@ -1,0 +1,42 @@
+
+.menu-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    min-width: 700px;
+    background-color: white;
+    z-index: 9999;
+
+}
+
+.login-form {
+    padding-right: 20px;
+    padding: 10px;
+    opacity: 0.8;
+    margin-right: 40px;
+}
+
+.login-form input {
+    border-radius: 50px;
+    padding: 5px;
+    margin-right: 5px;
+    width: 100px;
+    border: 1px solid rgb(182, 182, 182);
+    text-align: center;
+
+}
+
+
+.menu {
+    margin-left: 5vw;
+    padding: 10px;
+}
+
+.menu span {
+    margin-right: 40px;
+    font-size: 18px;
+    color: rgb(50, 49, 49);
+}
