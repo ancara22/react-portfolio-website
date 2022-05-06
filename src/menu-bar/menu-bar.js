@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import "./menu-bar.css"
 
 export default class MenuBar extends Component {
@@ -6,9 +7,9 @@ export default class MenuBar extends Component {
         return (
             <div className="menu-bar">
                 <div className="menu">
-                    <span>About me</span>
-                    <span>Projects</span>
-                    <span>Contact</span>
+                    <Link to="/about">About</Link>
+                    <Link to="/projects">Projects</Link>
+                    <Link to="/contact">Contact</Link>
                 </div>
              
 
@@ -23,6 +24,7 @@ export default class MenuBar extends Component {
                 </form>
 
             </div>
+
         )
     }
 

@@ -1,0 +1,19 @@
+
+.list_item {
+    padding: 5vw;
+    padding-top: 2vw;
+    margin-bottom: 3vh ;
+    background-color: white;
+    box-shadow: #00000029 0px 1px 4px; 
+    height: 400px;
+    max-width: 300px;
+    min-width: 200px;
+    overflow: hidden;
+
+}
+
+.list_item p {
+    text-align: justify;
+    height: 100px;
+    overflow: hidden;
+}
