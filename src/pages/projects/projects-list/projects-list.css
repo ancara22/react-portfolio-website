@@ -1,7 +1,7 @@
 
 .projects_list {
     max-width: 90vw;
-    top: 400px;
+    top: 450px;
     position: relative;
     outline-offset: none;
     list-style: none;
@@ -16,16 +16,29 @@
 
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&family=Rochester&display=swap');
 
 .head_title { 
    
     position: absolute;
-    color: black;
-    top: 530px;
+    color: rgb(18, 1, 124);
+    top: 560px;
     left: 0;
-    font-size: 50px;
-
+    font-size: 70px;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 100;
     width: 100%;
     text-align: center;
     
+}
+
+
+.line {
+    width: 30vw;
+    height: 2px;
+    background-color:rgb(18, 1, 124);
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 20%;
+  
 }
