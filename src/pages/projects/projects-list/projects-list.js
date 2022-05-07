@@ -16,9 +16,13 @@ export default class ProjectsList extends Component {
         });
 
         return (
-           <ul className="projects_list">
-               { listItems }
-           </ul>
+            <div>
+                <span className="head_title">My Projects</span>
+                <ul className="projects_list">
+                    { listItems }
+                </ul>
+            </div>
+           
         )
     }
 

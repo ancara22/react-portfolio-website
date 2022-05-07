@@ -1,15 +1,31 @@
 
 .projects_list {
-    max-width: 80vw;
-    padding: 0px;
-    padding-top: 100px;
+    max-width: 90vw;
+    top: 400px;
+    position: relative;
     outline-offset: none;
     list-style: none;
     margin-top: 300px;
+    left: -20px;
 
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content:  center;
+    column-gap:45px ;
+
 
 }
 
+
+.head_title { 
+   
+    position: absolute;
+    color: black;
+    top: 530px;
+    left: 0;
+    font-size: 50px;
+
+    width: 100%;
+    text-align: center;
+    
+}

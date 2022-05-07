@@ -32,11 +32,25 @@
 
 .menu {
     margin-left: 5vw;
-    padding: 10px;
+    padding: 12px;
+    display: flex;
+    justify-content: space-around;
+    min-width: 300px;
+
+
+
 }
 
-.menu span {
-    margin-right: 40px;
+.link {
+
     font-size: 18px;
     color: rgb(50, 49, 49);
+    text-decoration: none;
+    padding: 12px 10px 18px 10px;
+}
+
+.link:hover {
+    /*font-weight: 600;*/
+    background-color: rgb(220, 220, 220);
+    
 }

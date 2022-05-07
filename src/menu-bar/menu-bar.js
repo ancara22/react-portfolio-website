@@ -7,9 +7,9 @@ export default class MenuBar extends Component {
         return (
             <div className="menu-bar">
                 <div className="menu">
-                    <Link to="/about">About</Link>
-                    <Link to="/projects">Projects</Link>
-                    <Link to="/contact">Contact</Link>
+                    <span><Link to="/about" className="link">About</Link></span>
+                    <span><Link to="/projects/" className="link">Projects</Link></span>
+                    <span><Link to="/contact" className="link">Contact</Link></span>
                 </div>
              
 

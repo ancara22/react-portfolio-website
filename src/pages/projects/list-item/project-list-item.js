@@ -11,11 +11,14 @@ export default class ProjectListItem extends Component {
 
         return (
             <div className="list_item">
-                <h2>{title}</h2>
-                <img src={img} alt=""></img>
+                <h3>{title}</h3>
+                <div className="image">
+                    <img src={require(`./img-items/${img}`)} alt="img"/>
+                </div>
                 <p>{description}</p>
-                <span>{languages}</span>
-                <div>
+                
+                <div className="links">
+                    <span>{languages}</span>
                     <span>{githublink}</span>
                     <span>{netlifylink}</span>
                 </div>

@@ -1,4 +1,4 @@
-import ProjectsPage from "projects.js"
+import ProjectsPage from "./projects.js"
 
 
 export default ProjectsPage;

@@ -1,19 +1,97 @@
 
 .list_item {
-    padding: 5vw;
-    padding-top: 2vw;
-    margin-bottom: 3vh ;
+    position: relative;
+    margin-bottom: 7vh ;
     background-color: white;
-    box-shadow: #00000029 0px 1px 4px; 
+    box-shadow: #00000051 0px 1px 4px; 
     height: 400px;
-    max-width: 300px;
-    min-width: 200px;
+    max-width: 500px;
+    min-width: 500px;
     overflow: hidden;
+
 
 }
 
 .list_item p {
+    position: relative;
+    top: -90px;
     text-align: justify;
     height: 100px;
     overflow: hidden;
+    padding: 10px 40px;
+ 
+  
+}
+
+h3 {
+    position: relative;
+    color: white;
+    top: 180px;
+    right: -40px;
+    font-size: 24px;
+    z-index: 99;
+    width: max-content;
+ 
+}
+
+.image {
+    position: relative;
+    top: -90px;
+    width: 100%;
+    height: 260px;
+    overflow: hidden;
+
+}
+
+img {
+
+    width: inherit;
+
+}
+
+
+.image {
+    filter: brightness(90%);
+
+}
+
+
+
+
+
+.image:hover {
+    filter: brightness(130%);
+    transition: filter 0.5s;
+    cursor: pointer;
+    
+
+}
+
+
+.image::before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0,0,0,0.7) 5%, rgba(253, 253, 253, 0) 60%);
+}
+
+.image:hover:before{
+    background: linear-gradient(0deg, rgba(0,0,0,0.5) 10%, rgba(19,15,64,0) 70%);
+}
+
+
+
+h3:hover {
+    cursor: pointer;
+    
+}
+
+.links {
+    position: relative;
+    top: -145px;
+
 }

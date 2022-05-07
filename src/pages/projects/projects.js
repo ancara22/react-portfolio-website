@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React from "react";
 import FilterBar from "./filter-bar";
 import ProjectsList from "./projects-list";
 import dataBase from "./data";
@@ -21,25 +21,25 @@ const ProjectsPage = () => {
             languages: languages,
             level: level,
             id: idsMaker++
-       })})
-    }
+       })
+    })}
 
-    state = {
-        projectsData: [ ...this.createAllItems(dataBase) ]
-    }
+
+    const data = [ ...createAllItems(dataBase) ];
+    
 
     
-        return( 
-            <div>
-                <div className="intro">
-                    <span>Hello World!</span>
-                </div>
-                <ul>
-                    <ProjectsList projectsData={this.state.projectsData} />
-                </ul>
-                <FilterBar />  
+    return( 
+        <div>
+            <div className="intro">
+                <span>“Stay focused, go after your dreams and keep moving toward your goals.”</span>
             </div>
-        )
+            <ul>
+                <ProjectsList projectsData={data} />
+            </ul>
+            <FilterBar />  
+        </div>
+    )
 }
     
 
