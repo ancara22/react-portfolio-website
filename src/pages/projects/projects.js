@@ -3,6 +3,7 @@ import FilterBar from "./filter-bar";
 import ProjectsList from "./projects-list";
 import dataBase from "./data";
 import "./projects.css";
+import Footer from "../../footer";
 
 
 
@@ -30,14 +31,17 @@ const ProjectsPage = () => {
 
     
     return( 
-        <div>
+        <div id="projects_page">
             <div className="intro">
                 <span>“Stay focused, go after your dreams and keep moving toward your goals.”</span>
             </div>
+            <span className="head_title">My Projects
+                <div className="line"></div></span>
             <ul>
                 <ProjectsList projectsData={data} />
             </ul>
             <FilterBar />  
+            <Footer/>
         </div>
     )
 }

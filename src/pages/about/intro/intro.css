@@ -169,6 +169,12 @@ text-align: left;
   100%{top: -100vh; opacity: 0;}
 }
 
+@keyframes introDisplay {
+  0% {display: block;}
+  90% {display: block;}
+  100% {display: none;}
+}
+
 
 
 .light {
@@ -242,6 +248,8 @@ text-align: left;
 
 
 .drop {
-   transform: translateY(-110vh);
-    transition: transform 2s ease;
+    transform: translateY(-110vh);
+    transition: transform 2s ease; 
+    
+    animation: introDisplay 2s 1 linear;
 }

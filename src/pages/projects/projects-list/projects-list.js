@@ -17,8 +17,7 @@ export default class ProjectsList extends Component {
 
         return (
             <div>
-                <span className="head_title">My Projects
-                <div className="line"></div></span>
+                
                 
                 <ul className="projects_list">
                     { listItems }

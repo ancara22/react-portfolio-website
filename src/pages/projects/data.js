@@ -2,23 +2,23 @@
 
 const dataBase = [
     { 
-        title: "Project 1",
+        title: "Portfolio Website",
         description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration ", 
         githublink: "https://www.lipsum.com",
         netlifylink : "https://www.lipsum.com",
         img : "img2.png",
-        languages: ["a", "b", "c"],
+        languages: ["React", "JavaScript", "CSS"],
         level: 1,
         id: 2
 
     },
     { 
-        title: "Project 2",
+        title: "Pig Game",
         description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.", 
         githublink: "https://www.lipsum.com",
         netlifylink : "https://www.lipsum.com",
         img : "img1.png",
-        languages: ["a", "b", "c"],
+        languages: ["React", "JavaScript", "CSS"],
         level: 1,
        
     },
@@ -28,7 +28,7 @@ const dataBase = [
         githublink: "https://www.lipsum.com",
         netlifylink : "https://www.lipsum.com",
         img : "img2.png",
-        languages: ["a", "b", "c"],
+        languages: ["React", "JavaScript", "CSS"],
         level: 1,
        
     },
@@ -38,7 +38,7 @@ const dataBase = [
         githublink: "https://www.lipsum.com",
         netlifylink : "https://www.lipsum.com",
         img : "img1.png",
-        languages: ["a", "b", "c"],
+        languages: ["React", "JavaScript", "CSS"],
         level: 1,
        
     }
