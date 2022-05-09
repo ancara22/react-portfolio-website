@@ -251,5 +251,4 @@ text-align: left;
     transform: translateY(-110vh);
     transition: transform 2s ease; 
     
-    animation: introDisplay 2s 1 linear;
 }

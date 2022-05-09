@@ -18,7 +18,6 @@ export default class ProjectsList extends Component {
         return (
             <div>
                 
-                
                 <ul className="projects_list">
                     { listItems }
                 </ul>

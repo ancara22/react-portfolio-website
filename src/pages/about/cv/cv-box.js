@@ -1,6 +1,6 @@
 import React from "react";
 import "./cv-box.css";
-import Footer from "../../../footer";
+
 
 
 

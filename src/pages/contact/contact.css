@@ -1,0 +1,115 @@
+
+.back {
+    width: 100vw;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    height: 110vh;
+    background-color: rgb(248, 248, 248) ;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 60px;
+    font-size: 30px;
+    font-weight: 100;
+    color:   rgb(65, 34, 148) ;
+    z-index: 99;
+
+
+}
+
+
+#contact_form {
+    display: block;
+    margin: 0 auto;
+    width: 520px;
+    height: 350px;
+    margin-top: 4vh;
+    background-color: white;
+    box-shadow: #00000025 0px 1px 4px;  
+    padding: 50px;
+}
+
+#contact_form input, textarea {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    background-color: rgba(229, 229, 229, 0.608);
+    border: 0;
+    resize: none;
+    padding: 10px;
+    font-family: Helvetica, sans-serif;
+    
+}
+
+
+
+label {
+    display: block;
+    margin: 0 auto;
+    width: 438px;
+    margin-top: 10px;
+}
+
+.btn_submit {
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 7px 30px;
+    background-color: rgb(65, 34, 148) ;
+    border: 0px;
+    cursor: pointer;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.882);
+    border-radius: 40px;
+    transition: padding 0.5s ease-out;
+
+}
+
+.btn_submit:hover {
+    opacity: 1;
+    padding: 10px 40px;
+    transition: padding 0.5s ease-out;
+
+
+}
+
+#message {
+    height: 150px;
+}
+
+
+
+.line2 {
+	width: 0;
+	height: 0;
+	border-width: 40px 50px 0 50px;
+	border-color:  rgb(65, 34, 148)  transparent transparent transparent;
+	border-style: solid;
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+
+
+.line2::before {
+    content: "";
+	width: 0;
+	height: 0;
+	border-width: 40px 60px 0 60px;
+	border-color: rgb(248, 248, 248) transparent transparent transparent;
+	border-style: solid;
+    margin: 0 auto;
+    margin-top: 20px;
+    position: relative;
+    left: -60px;
+    top: -4px;
+
+
+}

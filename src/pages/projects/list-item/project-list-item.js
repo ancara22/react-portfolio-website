@@ -8,8 +8,8 @@ export default class ProjectListItem extends Component {
 
 
     dotColor(item) {
-        if(item =="React") return {backgroundColor: "lightblue"}
-        else if(item =="JavaScript") return {backgroundColor: "yellow"}
+        if(item ==="React") return {backgroundColor: "lightblue"}
+        else if(item ==="JavaScript") return {backgroundColor: "yellow"}
         else return {backgroundColor: "rgb(255, 180, 30)"}
 
     }
