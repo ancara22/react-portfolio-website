@@ -14,11 +14,11 @@ const config = {
   },
   devServer: {
     open: true,
-    host: "localhost"
+    host: "Portfolio"
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: "index.html"
+      template: "./public/index.html"
     })
 
     // Add your plugins here
