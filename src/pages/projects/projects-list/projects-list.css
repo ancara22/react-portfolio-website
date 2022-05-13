@@ -1,0 +1,15 @@
+
+.projects_list {
+    max-width: 90vw;
+    outline-offset: none;
+    list-style: none;
+    margin-top: 80px;
+    margin-right: 80px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:  center;
+    column-gap:45px ;
+
+
+}

@@ -1,0 +1,87 @@
+
+
+:root {
+    --menu-size: 50px;
+    --menu-links-padding: 14px
+}
+
+
+.menu-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: var(--menu-size);
+    display: flex;
+    justify-content: space-between;
+    min-width: 700px;
+    background-color: white;
+    z-index: 9999;
+
+
+}
+
+.login-form {
+    padding-right: 20px;
+    padding: 10px;
+    opacity: 0.8;
+    margin-right: 40px;
+    
+}
+
+.login-form input {
+    border-radius: 50px;
+    padding: 5px;
+    margin-right: 5px;
+    width: 100px;
+    border: 1px solid rgb(182, 182, 182);
+    text-align: center;
+
+}
+
+
+.menu {
+    margin-left: 5vw;
+    display: flex;
+    justify-content: space-around;
+    min-width: 300px;
+    font-weight: 800;
+    width: 300px;
+}
+
+.link {
+    font-size: 16px;
+    color: #2d3e4e ;
+    text-decoration: none;
+    height: var(--menu-size) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 34px;
+    padding-left: 34px;
+  
+    width: 33.3%;
+    margin: 0 auto;
+
+}
+
+.menu span {
+    height: var(--menu-size);
+    width: 33.3%;
+
+    
+}
+
+.menu span:hover, .link:hover {
+    background-color:  rgb(65, 34, 148)   ;
+    color: white;
+
+
+    height: 80px;
+    transition: height 0.4s ease;
+    
+}
+
+
+
+
