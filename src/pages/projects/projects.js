@@ -1,14 +1,22 @@
 import React from "react";
 import FilterBar from "./filter-bar";
 import ProjectsList from "./projects-list";
-import dataBase from "./data";
+
 import "./projects.css";
 import Footer from "../../footer";
 
+import { Provider } from "react-redux";
+import reducer from "./storeData/reducer";
+import {configureStore} from '@reduxjs/toolkit';
+
+
+const store = configureStore({reducer: reducer});
 
 
 const ProjectsPage = () => {
 
+
+    /*
     let idsMaker = 100;
 
     const createAllItems = (data) => {
@@ -27,7 +35,7 @@ const ProjectsPage = () => {
 
 
     const data = [ ...createAllItems(dataBase) ];
-    
+    */
 
     
     return( 
@@ -38,7 +46,10 @@ const ProjectsPage = () => {
             <span className="head_title">My Projects
                 <div className="line"></div></span>
             <ul>
-                <ProjectsList projectsData={data} />
+            <Provider store={store} >
+                <ProjectsList/> 
+            </Provider>
+                {/*projectsData={data} */}
             </ul>
             <FilterBar />  
             <Footer/>

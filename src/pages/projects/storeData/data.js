@@ -9,7 +9,7 @@ const dataBase = [
         img : "img2.png",
         languages: ["React", "JavaScript", "CSS"],
         level: 1,
-        id: 2
+        id: 100
 
     },
     { 
@@ -20,6 +20,7 @@ const dataBase = [
         img : "img1.png",
         languages: ["React", "JavaScript", "CSS"],
         level: 1,
+        id: 101
        
     },
     { 
@@ -30,6 +31,7 @@ const dataBase = [
         img : "img2.png",
         languages: ["React", "JavaScript", "CSS"],
         level: 1,
+        id: 102
        
     },
     { 
@@ -40,6 +42,7 @@ const dataBase = [
         img : "img1.png",
         languages: ["React", "JavaScript", "CSS"],
         level: 1,
+        id: 103
        
     }
 ]

@@ -10,11 +10,13 @@ const stylesHandler = "style-loader";
 const config = {
   entry: "./src/index.js",
   output: {
-    path: path.resolve(__dirname, "dist")
+    path: path.resolve(__dirname, "dist"),
+    publicPath: '/'
   },
   devServer: {
     open: true,
-    host: "localhost"
+    host: "localhost",
+    historyApiFallback: true
   },
   plugins: [
     new HtmlWebpackPlugin({

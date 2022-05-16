@@ -1,18 +1,19 @@
-import React, { Component } from "react";
+import React, { Component, setState } from "react";
 import ProjectsListItem from "../list-item";
 import "./projects-list.css"
+import {connect} from "react-redux";
+import uuid from "react-uuid";
 
 
-
-export default class ProjectsList extends Component {
+class ProjectsList extends Component {
 
     render() {
         const {projectsData} = this.props;
-
-        const listItems = projectsData.map((item)=> {
-            return (
-                <li key={item.id.toString()}><ProjectsListItem {...item} /></li>
-            )
+        const listItems = projectsData.map( (item) => {
+            return ( 
+                <li key={uuid()} >
+                    <ProjectsListItem {...item} />
+                </li> )
         });
 
         return (
@@ -27,3 +28,13 @@ export default class ProjectsList extends Component {
     }
 
 };
+
+
+
+const mapStateToProps = (state) => {
+    return ({
+        projectsData: state})
+}
+
+
+export default connect(mapStateToProps)(ProjectsList);
