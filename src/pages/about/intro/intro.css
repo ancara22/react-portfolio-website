@@ -92,7 +92,7 @@ width: 400px;
 height: 400px;
 border-radius: 50%;
 background-color: white;
-background-image: url("../../../src-img/mypic.jpg");
+background-image: url("../../../../public/files/mypic.jpg");
 background-size: cover;
 z-index: 999;
 position: relative;

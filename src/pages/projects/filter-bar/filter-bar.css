@@ -10,7 +10,7 @@
 
 
 .menuIcon {
-   background: url("../../../../img/menu.png") ;
+   background: url("../../../../public/files/menu.png") ;
    background-size: cover;
    width: 20px;
    height: 20px;

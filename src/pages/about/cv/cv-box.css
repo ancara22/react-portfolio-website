@@ -1,43 +1,60 @@
 
 
-.my_cv2 {
-    margin: 0 auto;
-    width: 90vw;
-    height: 1000px;
-    z-index: 999999;
-    background-color: rgb(223, 222, 222);
-    position: relative;
-
-    display: none;
-    z-index: -1;
-  }
-
-
   .my_cv {
     margin: 0 auto;
-    width: 90vw;
-    height: 1000px;
+    width: 100vw;
+    height: auto;
     z-index: 999999;
-    background-color: rgb(223, 222, 222);
+    background-color: rgba(223, 222, 222, 0.28);
     position: absolute;
     top: 50px;
-    left: 5vw;
+    left: 0px;
 
     display: none;
     z-index: -1;
   }
-
-
-
-
-
-.my_cv span {
-    font-size: 50px;
-    position: relative;
-    top: 200px;
-    left: 40vw
-}
 
 .show {
     display: block;
+}
+
+
+
+.cv-file {
+  zoom: 140%;
+  position: relative;
+  margin: 0 auto;
+  width: max-content;
+  margin-top: 60px;
+  box-shadow: 1px 1px 4px rgba(128, 128, 128, 0.456);
+
+}
+
+.my_cv p {
+  width: max-content;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+
+.buttons-box {
+  width: max-content;
+  height: 20px;
+  padding-bottom: 100px;
+  margin: 0 auto;
+  
+}
+
+.buttons-box button {
+  border: 0;
+  background-color: rgb(65, 34, 148) ;
+  color: white;
+  padding: 15px;
+  margin: 5px;
+  padding: 15px 30px;
+}
+
+.buttons-box button:hover {
+  cursor: pointer;
+  background-color: rgba(64, 34, 148, 0.833);
 }
