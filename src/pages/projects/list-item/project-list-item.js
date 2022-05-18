@@ -3,9 +3,10 @@ import "./project-list-item.css"
 import { AiFillGithub } from 'react-icons/ai';
 import { SiNetlify } from 'react-icons/si';
 import uuid from "react-uuid";
+import {connect} from "react-redux";
 
 
-export default class ProjectListItem extends Component {
+class ProjectListItem extends Component {
     dotColor(item) {
         if(item ==="React") return {backgroundColor: "lightblue"}
         else if(item ==="JavaScript") return {backgroundColor: "yellow"}
@@ -13,11 +14,15 @@ export default class ProjectListItem extends Component {
 
     }
 
+    openShowBox = () => {
+        this.props.dispatch({type: 'SHOW_ITEM_BOX'})
+    }
+
+
     render() {
         const { title, description, githublink, netlifylink, 
-                img, languages} = this.props;
-
-
+                img, languages, id} = this.props;
+                
         const lang = languages.map((item)=>{
             return ( 
                 <div className="lang" key={uuid()}>
@@ -30,7 +35,7 @@ export default class ProjectListItem extends Component {
         return (
             <div className="list_item" >
                 <h3>{title}</h3>
-                <div className="image">
+                <div className="image" onClick={this.openShowBox}>
                     <img src={require(`./img-items/${img}`)} alt="img"/>
                 </div>
                 <p>{description}</p>
@@ -48,3 +53,9 @@ export default class ProjectListItem extends Component {
         )
     }
 };
+
+const mapStateToProps = (state) => {
+    return ({ store: state })
+}
+
+export default connect(mapStateToProps)(ProjectListItem)

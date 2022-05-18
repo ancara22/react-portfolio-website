@@ -13,7 +13,7 @@ export default class MenuBar extends Component {
                 </div>
              
 
-                <form className="login-form">
+               {/* <form className="login-form">
                     <input
                         placeholder="login">
                     </input>
@@ -21,7 +21,7 @@ export default class MenuBar extends Component {
                         placeholder="password">
                     </input>
                     <button type="submit">-></button>
-                </form>
+                 </form> */ }
 
             </div>
 

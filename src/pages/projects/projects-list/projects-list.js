@@ -33,7 +33,7 @@ class ProjectsList extends Component {
 
 const mapStateToProps = (state) => {
     return ({
-        projectsData: state})
+        projectsData: state.dataBase})
 }
 
 
