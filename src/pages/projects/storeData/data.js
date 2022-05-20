@@ -6,7 +6,7 @@ const dataBase = [
         description: "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration ", 
         githublink: "https://www.lipsum.com",
         netlifylink : "https://www.lipsum.com",
-        img : "img2.png",
+        img : "img1.png",
         languages: ["React", "JavaScript", "CSS"],
         level: 1,
         id: 100

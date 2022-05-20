@@ -2,7 +2,8 @@ import dataBase from "./data";
 
 const initState = {
     dataBase: dataBase,
-    showItemBox: false
+    showItemBox: false,
+    id: undefined
 }
 
 
@@ -15,12 +16,14 @@ const reducer = (state=initState, action) => {
         case "SHOW_ITEM_BOX":
             return {
                 ...state,
-                showItemBox: true
+                showItemBox: true,
+                id: action.payload
             }
         case "CLOSE_ITEM_BOX":
             return {
                 ...state,
-                showItemBox: false
+                showItemBox: false,
+                id: undefined
             }
 
         default:

@@ -15,13 +15,18 @@ class ProjectListItem extends Component {
     }
 
     openShowBox = () => {
-        this.props.dispatch({type: 'SHOW_ITEM_BOX'})
+        this.props.dispatch(
+            {
+                type: 'SHOW_ITEM_BOX',
+                payload: this.props.id
+            })
     }
 
 
     render() {
+        
         const { title, description, githublink, netlifylink, 
-                img, languages, id} = this.props;
+                img, languages} = this.props;
                 
         const lang = languages.map((item)=>{
             return ( 
@@ -36,7 +41,7 @@ class ProjectListItem extends Component {
             <div className="list_item" >
                 <h3>{title}</h3>
                 <div className="image" onClick={this.openShowBox}>
-                    <img src={require(`./img-items/${img}`)} alt="img"/>
+                    <img src={require(`../IMG/${img}`)} alt="img"/>
                 </div>
                 <p>{description}</p>
                 
