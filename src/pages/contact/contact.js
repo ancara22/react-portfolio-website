@@ -12,7 +12,6 @@ const ContactPage = () => {
             <span className="title">Contact Me</span>
             <div className="line2"></div>
             <form id="contact_form">
-                <label htmlFor="email">Email:</label>
                 <input id="email" type="email" placeholder="  Email" required></input>
                 <textarea id="message" rows="10" cols="10" type="text" placeholder="  Message..."></textarea>
                 <button className="btn_submit" type="submit">Submit</button>

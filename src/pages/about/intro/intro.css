@@ -35,6 +35,7 @@
   right: 0px;
   margin: auto;
   transition: .3s;
+  z-index: 99999;
 }
 
 .button:hover{
@@ -203,7 +204,7 @@ h1 {
 
 
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 650px) {
 
   h1 {
     font-size: 90px;
@@ -213,24 +214,25 @@ h1 {
   #head1 {
     width: 50vh;
     height: 50vh;
-    border-radius: 50%;
-    left: 200px;
-    top: 200px;
+    border-radius: 6%;
+    left: 20%;
+    top: 45%;
+  
 
   }
 
   .info_box {
-    width: 800px;
+    width: 60vw;
     height: 400px;
-    top: 120px;
+    top: 20%;
   }
 
   #head2 {
     position: relative;
     width: 300px;
     text-align: left;
-    right: -600px;
-    top: -200px;
+    left: 50vw;
+    top: -50%;
 
   }
 
@@ -264,7 +266,7 @@ h1 {
 
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 650px) {
 
   h1 {
     font-size: 90px;

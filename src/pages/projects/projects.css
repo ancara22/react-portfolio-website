@@ -122,3 +122,18 @@
 }
 
 
+
+@media screen and (max-width: 650px) {
+
+
+    .intro span {
+        font-size: 40px;
+        width: 80vw;
+        top: 10vh;
+        margin: 0 auto;
+    
+     
+    }
+    
+
+}

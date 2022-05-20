@@ -1,16 +1,4 @@
 
-.list_item {
-    position: relative;
-    margin-bottom: 7vh ;
-    background-color: white;
-    box-shadow: #00000025 0px 1px 4px;  
-    height: 430px;
-    max-width: 450px;
-    min-width: 450px;
-    overflow: hidden;
-
-
-}
 
 .list_item p {
     position: relative;
@@ -127,4 +115,47 @@ a {
 .lang-box {
 
     display: flex;
+}
+
+
+
+.list_item {
+    position: relative;
+    margin-bottom: 7vh ;
+    background-color: white;
+    box-shadow: #00000025 0px 1px 4px;  
+    overflow: hidden;
+
+
+}
+
+
+
+
+@media screen and (min-width: 650px) {
+
+    .list_item {
+        height: 430px;
+        max-width: 450px;
+        min-width: 450px;
+
+    
+    
+    }
+    
+
+}
+
+
+@media screen and (max-width: 650px) {
+
+    .list_item {
+        margin-bottom: 7vh ;
+        height: 430px;
+        width: 90vw;
+        left: 0;
+
+    
+    }
+
 }
