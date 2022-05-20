@@ -3,7 +3,10 @@
     outline-offset: none;
     list-style: none;
     margin-top: 80px;
-    
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:  center;
     
 
 
@@ -16,9 +19,7 @@
         max-width: 90vw;
         column-gap:45px ;
         margin-right: 80px;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content:  center;
+        
 
     }
     
@@ -29,13 +30,7 @@
 
     .projects_list {
         width: 100vw;
-        padding: 0;
-        display: block;
-        
-
-      
-
-
+        margin: 0;
     }
     
     

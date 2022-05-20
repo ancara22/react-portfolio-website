@@ -138,8 +138,6 @@ a {
         height: 430px;
         max-width: 450px;
         min-width: 450px;
-
-    
     
     }
     
@@ -153,9 +151,10 @@ a {
         margin-bottom: 7vh ;
         height: 430px;
         width: 90vw;
-        left: 0;
-
-    
+        
+        
+        
+        
     }
 
 }
