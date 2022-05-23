@@ -17,9 +17,8 @@ class ProjectsList extends Component {
         });
 
         return (
-            <div>
-                
-                <ul className="projects_list">
+            <div className="projects_list">
+                <ul >
                     { listItems }
                 </ul>
             </div>

@@ -68,9 +68,9 @@
 
 
 #projects_page {
-    background-color:  #e8eceb86 ;
+    background-color:  #e8eceba8 ;
     width: 100vw;
-    height: 100vh;
+    height: max-content;
 }
 
 
@@ -133,11 +133,6 @@
         margin: 0 auto;
     
      
-    }
-
-    ul {
-        padding-inline-start: 0px;
-    }
-    
+    }   
 
 }

@@ -41,13 +41,10 @@ class ProjectsPage extends Component {
                 </div>
                 <span className="head_title">My Projects
                     <div className="line"></div></span>
-                <ul>
                 <Provider store={store} >
                     <ProjectsList/> 
                     {this.state.showBox}
                 </Provider>
-                </ul>
-                
                 <FilterBar />
                 <Footer/>
             </div>
