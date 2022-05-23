@@ -15,7 +15,6 @@ const IntroBox = ({showMyCV, classN}) => {
                             <span className="profesion">Software Developer</span>
                             <p>2 Year Student,  BSc Computer Science <br/> Middlesex University London  </p>
                         </div>
-                        <div id='head3' className='header'></div>
                     </div>  
                     <button 
                         className="button"
