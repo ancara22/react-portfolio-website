@@ -53,7 +53,7 @@ const dataBase = [
         img : "ping-pong-game.png",
         languages: ["Racket"],
         level: 1,
-        id: 103
+        id: 104
        
     },
     { 
@@ -64,7 +64,7 @@ const dataBase = [
         img : "euler-circuit-finder.png",
         languages: ["JavaScript", "CSS"],
         level: 1,
-        id: 103
+        id: 105
        
     }
 ]
