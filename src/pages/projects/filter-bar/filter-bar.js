@@ -1,17 +1,36 @@
 import React, {Component} from "react";
 import "./filter-bar.css";
+import FilterBox from "./filter-box";
 
 
 
 
-export default class FilterBar extends Component {
+export default  class FilterBar extends Component {
 
-    render() {
+    state = {
+        classN: ""
+    }
+
+    dispayBox = () => {
+        this.setState((prevState)=>({
+            classN: prevState.classN == "" ? "display-box" : ""
+                
+        }))
+    }
+
+    render(){
         return (
-            <div className="filter-bar">
-                <div className="menuIcon"></div>
-        
+            <div>
+                <div className="filter-bar"
+                    onClick={this.dispayBox}>
+                    <div className="menuIcon"></div>
+                </div>
+                <FilterBox classN={this.state.classN}/>
             </div>
         )
+
     }
+    
 }
+
+
