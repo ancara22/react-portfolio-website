@@ -3,7 +3,7 @@
 const dataBase = [
     { 
         title: "Portfolio Website",
-        description: "In Progress...", 
+        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.", 
         githublink: "https://github.com/ancara22/react-portfolio-website.git",
         netlifylink : "In Progress...",
         img : "react-portfolio-website.png",
@@ -14,7 +14,7 @@ const dataBase = [
     },
     { 
         title: "Dice Game",
-        description: "In Progress...", 
+        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.", 
         githublink: "https://github.com/ancara22/Dice-game.git",
         netlifylink : "In Progress...",
         img : "dice-game.png",
@@ -25,7 +25,7 @@ const dataBase = [
     },
     { 
         title: "Web Banking",
-        description: "In Progress...", 
+        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.", 
         githublink: "https://github.com/ancara22/Web-Banking-app.git",
         netlifylink : "In Progress...",
         img : "web-banking.png",
@@ -36,7 +36,7 @@ const dataBase = [
     },
     { 
         title: "Puzzle Game",
-        description: "In Progress...", 
+        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.", 
         githublink: "https://github.com/ancara22/Puzzle-game.git",
         netlifylink : "In Progress...",
         img : "puzzle-game.png",
@@ -47,7 +47,7 @@ const dataBase = [
     },
     { 
         title: "Ping Pong Game",
-        description: "In Progress...", 
+        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.", 
         githublink: "https://github.com/ancara22/Ping-Pong-Game.git",
         netlifylink : "In Progress...",
         img : "ping-pong-game.png",
@@ -58,7 +58,7 @@ const dataBase = [
     },
     { 
         title: "Euler Circuit Finder",
-        description: "In Progress...", 
+        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.", 
         githublink: "https://github.com/ancara22/Euler-Circuit-computing.git",
         netlifylink : "In Progress...",
         img : "euler-circuit-finder.png",

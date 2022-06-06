@@ -49,7 +49,7 @@ class ProjectListItem extends Component {
                     <div className="lang-box">
                         {lang}
                     </div>
-                    <div>   
+                    <div className="icons-box">   
                         <a href={netlifylink}><SiNetlify className="icons"/></a>
                         <a href={githublink}><AiFillGithub className="icons"/></a>
                     </div>

@@ -7,6 +7,7 @@
     height: 100px;
     overflow: hidden;
     padding: 10px 40px;
+    display: none;
  
   
 }
@@ -14,8 +15,7 @@
 h3 {
     position: relative;
     color: white;
-    top: 180px;
-    right: -40px;
+    right: -20px;
     font-size: 24px;
     z-index: 99;
     width: max-content;
@@ -26,19 +26,18 @@ h3 {
     position: relative;
     top: -90px;
     width: 100%;
-    height: 260px;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
+
 
 }
 
 img {
-
-    width: inherit;
-
+    position: relative;
+    z-index: 1;
+    height: inherit;
 }
-
-
-
 
 
 
@@ -59,7 +58,8 @@ img {
     bottom: 0;
     width: 100%;
     height: 50px;
-    background: rgba(32, 36, 111, 0.526);
+    background: rgba(32, 36, 111, 0.6);
+    z-index: 2;
 }
 
 
@@ -72,32 +72,21 @@ h3:hover {
 
 .links {
     position: relative;
-    top: -105px;
+    top: -70px;
     display: flex;
+    padding: 0 20px;
     justify-content: space-between;
-    padding: 0 35px;
 
 }
 
-
-.icons {
-    width: 30px;
-    height: 30px;
-    color: black;
-    position: relative;
-
-}
-
-a {
-    text-decoration: none !important;
-    margin-left: 10px;
-}
 
 .lang  {
-    margin-right: 20px;
+    margin-right: 15px; 
     font-size: 12px;
     display: flex;
     align-items: center;
+    height: 32px;
+    width: max-content;
     
 }
 
@@ -110,17 +99,44 @@ a {
 }
 
 .lang-box {
-
+    width: 65%;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap
+
 }
+
+
+.icons {
+    width: 25px;
+    height: 25px;
+    color: black;
+    position: relative;
+
+
+}
+
+.icons-box {
+    width: 70px;
+    position: relative;
+    bottom: -35px;
+    height: max-content;
+}
+
+a {
+    text-decoration: none !important;
+    margin-left: 10px;
+}
+
+
 
 
 
 .list_item {
     position: relative;
     margin-bottom: 7vh ;
-    background-color: white;
-    box-shadow: #00000025 0px 1px 4px;  
+    background-color: rgb(255, 255, 255);
+    box-shadow: #00000025 0px 1px 4px;   
     overflow: hidden;
     transition: all 0.2s ease;
 
@@ -137,11 +153,23 @@ a {
 @media screen and (min-width: 650px) {
 
     .list_item {
-        height: 430px;
-        max-width: 450px;
-        min-width: 450px;
+        height: 300px;
+        max-width: 300px;
+        min-width: 300px;
     
     }
+
+    .image {
+        height: 220px; 
+    
+    }
+
+    h3 {
+        top: 143px;
+     
+    }
+    
+    
     
 
 }
@@ -151,13 +179,25 @@ a {
 
     .list_item {
         margin-bottom: 7vh ;
-        height: 430px;
+        height: 400px;
         width: 90vw;
         
-        
-        
-        
     }
+
+    .image {
+        height: 320px; 
+        margin-left: auto;
+        margin-right: auto;
+    
+    }
+
+    h3 {
+        top: 243px;
+     
+    }
+    
+
+
 
 }
 

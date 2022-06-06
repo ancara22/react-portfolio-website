@@ -53,6 +53,7 @@ import { connect } from "react-redux";
                         <div className="img">
                             <img src={require(`../IMG/${img}`)} alt="img"/>
                         </div>
+                        <div className="line"></div>
                         <p>{description}</p>
                     </div>  
 
