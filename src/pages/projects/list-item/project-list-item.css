@@ -14,7 +14,7 @@
 
 h3 {
     position: relative;
-    color: white;
+    color: rgb(255, 255, 255);
     right: -20px;
     font-size: 24px;
     z-index: 99;
@@ -54,11 +54,13 @@ img {
     display: block;
     position: absolute;
     left: 0;
-
     bottom: 0;
     width: 100%;
     height: 50px;
-    background: rgba(32, 36, 111, 0.6);
+    /*
+    background: linear-gradient(0deg, rgba(0, 4, 73, 0.711)0%,rgba(32, 36, 111, 0) 40%, rgba(32, 36, 111, 0) 60%);
+    */
+    background-color: rgba(32, 36, 111, 0.667);; 
     z-index: 2;
 }
 

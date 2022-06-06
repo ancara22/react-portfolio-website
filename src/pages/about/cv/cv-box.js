@@ -3,6 +3,7 @@ import React, {useState} from 'react';
 import "./cv-box.css";
 import { Document, Page, pdfjs } from "react-pdf";
 import Footer from "../../../footer";
+import mycv from "/public/mycv.pdf";
 
 pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
@@ -20,7 +21,7 @@ const MyCv = ({classN}) => {
   return (
 
     <div className={"my_cv " + classN} >
-      <Document className="cv-file" file="mycv.pdf" onLoadSuccess={onDocumentLoadSuccess} renderMode="svg">
+      <Document className="cv-file" file={mycv} onLoadSuccess={onDocumentLoadSuccess} renderMode="svg">
         <Page pageNumber={pageNumber} />
       </Document>
       <p>
