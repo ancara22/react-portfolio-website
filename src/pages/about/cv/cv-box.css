@@ -1,3 +1,8 @@
+::root {
+  --zoom: 100%;
+}
+
+
 
 
   .my_cv {
@@ -57,4 +62,17 @@
 .buttons-box button:hover {
   cursor: pointer;
   background-color: rgba(64, 34, 148, 0.833);
+}
+
+
+
+
+@media screen and (max-width: 650px) {
+
+ 
+  .cv-file {
+    zoom: 80%;
+    
+  }
+
 }
